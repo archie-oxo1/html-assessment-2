@@ -1,0 +1,251 @@
+/* universal */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+/* common class */
+.container{
+    max-width: 1250px;
+    width:100%;
+    margin: 0 auto;
+    padding:0 15px;
+}
+section img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-transform: capitalize;
+}
+figure img{
+    margin:0 0 20px;
+}
+.cmn-btn {
+    padding: 18px 36px;
+    display: inline-block;
+    background-color: #D00000;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #333;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.cmn-btn:hover {
+    background-color: #000;
+}
+p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.1;
+    color:#000;
+    margin:0 0 20px;
+    width:60%;
+}
+h1,
+.heading-1 {
+    font-size: 31px;
+    font-weight: 200;
+    line-height: 1.2;
+    color: #001f51;
+}
+
+h2,
+.heading-2 {
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 1.2;
+    color: #001f51;
+}
+
+h3,
+.heading-3 {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.2;
+    color: #001f51;
+}
+
+h4,
+.heading-4 {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.2;
+    color: #001f51;
+}
+
+h5,
+.heading-5 {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.2;
+    color: #001f51;
+}
+.com-gap{
+    padding: 100px 0;
+}
+
+
+/* nav bar starts */
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display:flex;
+    justify-content: space-between;
+}
+.nav-links li{
+    margin: 0 20px 0;
+}
+.logo{
+    width:100px;
+    display:block;
+}
+img{
+    max-width: 100%;
+}
+
+/* banner starts */
+.banner-section{
+    background: url(/images/banner-img.png) no-repeat;
+    height:800px;
+    background-position: center center;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center ;
+}
+.banner-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.banner-left,.banner-right{
+    padding: 0 18px;
+}
+.banner-left{
+    width: 60%;
+}
+.banner-right{
+    width:40%;
+    height:470px;
+    background-color: #FFF;
+}
+.banner-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-color{
+    color:#001F51;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+.submit{
+    background-color: red;
+    color:#fff;
+}
+input{
+    background-color: #fff;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px; 
+}
+.ban-loan{
+    text-transform: capitalize;
+}
+.signup{
+    text-transform: capitalize;
+}
+
+/* about section starts */
+span{
+    color:red;
+    font-style: italic;
+}
+.about-left,.about-right{
+    width: 50%;
+    padding: 0 15px;
+}
+.about-right{
+    display:flex;
+    align-items: center;
+}
+.about-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* card section begins */
+.card{
+    width: calc(33.33% - 45px);
+    background-color:#FFF;
+    border-radius: 10px;
+    border: 1px solid #333;
+    padding: 15px 15px 40px 15px;
+}
+.card-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-upper-text{
+    text-align: center;
+}
+.card-upper-text p{
+    width:50%;
+    margin:auto;
+}
+.card-btn{
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+.card:hover{
+    transform: translate(-15px);
+}
+
+/* footer section begins */
+.footer-section{
+    padding: 130px 0;
+    background-color: #001f51;
+}
+.footer-child{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin: 0 15px;
+    flex-wrap: wrap;
+}
+.cmn-footer{
+    width:100%;
+    margin: 0 0 20px;
+}
+.copyright{
+    color: #fff;;
+}
+.footer-logo{
+    padding-left: 80px;
+}
